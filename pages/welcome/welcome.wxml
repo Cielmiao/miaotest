@@ -1,0 +1,7 @@
+<view class='container'>
+  <image class='user-img' src='/images/1.jpg'></image>
+  <text class='user-name'>Hello,Ciel</text>
+  <view class='txt-box' bindtap='onTap'>
+    <text class='txt'>开启小程序</text>
+  </view>
+</view>

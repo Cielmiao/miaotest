@@ -1,0 +1,41 @@
+.post-container{
+  margin-top: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px;
+}
+.ava{
+  display: flex;
+  align-items: center;
+}
+.post-avatar{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.post-data{
+  font-size: 32rpx;
+}
+.post-title{
+  margin: 20px 0;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.post-img{
+  width: 100%;
+  height: 400rpx;
+}
+.post-content{
+  margin: 10px 0;
+  font-size: 30rpx;
+}
+.post-icon{
+  display: flex;
+  align-items: center;
+}
+.post-read{
+  font-size: 28rpx;
+  margin: 0 30rpx 0 10rpx;
+}

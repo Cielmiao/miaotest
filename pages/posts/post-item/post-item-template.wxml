@@ -1,0 +1,17 @@
+<template name="post-item">
+  <view  class='post-container'>
+    <view class='ava'>
+      <image src='{{avatar}}' class='post-avatar'></image>
+      <text class='post-data'>{{data}}</text>
+    </view>
+    <text class='post-title'>{{title}}</text>
+    <image src='{{imgSrc}}' class='post-img'></image>
+    <text class='post-content'>{{content}}</text>
+    <view class='post-icon'>
+      <text class='iconfont icon-yuedu'></text>
+      <text class='post-read'>{{reading}}</text>
+      <text class='iconfont icon-shoucang'></text>
+      <text class='post-read'>{{ collection}}</text>
+    </view>
+  </view>
+</template>
